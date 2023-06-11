@@ -34,7 +34,6 @@ int main() {
   MLN->b = MLN;
   MLN->s = S;
 
-  std::cout << "Please enter a string for L=a(a|b*)ab* over the alphabet {a,b} ending with $: ";
   std::string input {};
   std::cin >> input;
 
@@ -62,8 +61,7 @@ int main() {
   if (current == S) {
     output = "YES";
   }
-  std::cout << output << std::endl;
+  std::cout << output;
 
-  std::cout << "Thank you for using this program. Goodbye\n";
   return 0;
 }
